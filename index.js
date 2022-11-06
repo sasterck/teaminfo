@@ -107,7 +107,7 @@ async function prompt() {
                     },
                 }, ]);
 
-                // add to team Arr
+                // add manager
                 const manager = new Manager(response.name, response.id, response.email, response2.x);
                 teamArray.push(manager);
 
@@ -121,7 +121,7 @@ async function prompt() {
                     },
                 }, ]);
 
-                // add to team Arr
+                // add intern
                 const intern = new Intern(response.name, response.id, response.email, response2.x);
                 teamArray.push(intern);
             }
