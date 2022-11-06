@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sasterck/teaminfo#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "lib-js": "^0.0.7"
   }
 }
