@@ -16,7 +16,7 @@ console.log('Team Info/Portfolio by Sara')
 async function main() {
     try {
         await prompt()
-        
+
         for(let i = 0; i <teamArray.length; i++) {
             teamString = teamString + html.generateCard(teamArray[i]);
         }
@@ -24,6 +24,11 @@ async function main() {
         
         console.clear();
         console.log('generate index.html file')
+
+        writeFileAsync('./index.html', finalHtml);
+
+        console.clear();
+        console.log('file created successfully');
 
     }
 }
