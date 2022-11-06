@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sasterck/teaminfo/issues"
   },
-  "homepage": "https://github.com/sasterck/teaminfo#readme"
+  "homepage": "https://github.com/sasterck/teaminfo#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
